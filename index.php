@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<?php
+?>
+<head>
+<title>Nga Coffee & Tea </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/054b30d207.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="header">
+  <img class="img" src="images/logo.png" alt="logo">
+  <a class="logo">Nga Coffee & Tea</a>
+  <div class="header-right">
+    <a class="active" href="index.php">Trang chủ</a>
+    <a href="cart.php">Giỏ hàng</a>
+  </div>
+</div>
+<div class="hero">
+    <img class="img" src="images/hero1.png" alt="hero">
+</div>
+<div class="review">
+    <div><h2 style='text-align:center'>Thực đơn đồ uống</h2></div>
+    <div class="header-content">
+      <div class="nav">
+        <i class="fas btn fa-chevron-left btnLeft"></i><i class="fas btn fa-chevron-right btnRight"></i>
+      </div>
+    </div>
+    <div class="review-box">
+      <div class="box">
+        <div class="images1">
+          <img src="images/caphesua.png" alt="caphesua" />
+        </div>
+        <div class="name">Cà Phê Sữa</div>
+        <div class="text"> 20.000đ</div>
+        <form method="POST" action="cart.php">
+          <input type="submit" class="button" value="Đặt Ngay" name="but1">
+        </form>
+      </div>
+      <div class="box">
+        <div class="images1">
+          <img src="images/capheden.png" alt="capheden" />
+        </div>
+        <div class="name">Cà Phê Đen</div>
+        <div class="text"> 17.000đ</div>
+        <form method="POST" action="cart.php">
+          <input type="submit" class="button" value="Đặt Ngay" name="but2">
+        </form>
+      </div>
+      <div class="box">
+        <div class="images1">
+          <img src="images/bacsiu.png" alt="bacsiu" />
+        </div>
+        <div class="name">Bạc Sỉu</div>
+        <div class="text"> 20.000đ</div>
+        <form method="POST" action="cart.php">
+          <input type="submit" class="button" value="Đặt Ngay" name="but3">
+        </form>
+      </div>
+      <div class="box">
+        <div class="images1">
+          <img src="images/cappuchino.png" alt="cappuchino" />
+        </div>
+        <div class="name">Cappuchino</div>
+        <div class="text"> 20.000đ</div>
+        <form method="POST" action="cart.php">
+          <input type="submit" class="button" value="Đặt Ngay" name="but4">
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+<footer>
+    <div class="footer-content">
+        <h1>Nga Coffee & Tea</h1>
+        <h3>Liên hệ:</h3>
+        <h3>0908748568</h3>
+        <ul class="socials">
+            <li><a href="https://www.facebook.com/profile.php?id=100092548612279"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+        </ul>
+    </div>
+
+</footer>
+</html>
